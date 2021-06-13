@@ -1,0 +1,10 @@
+{
+    "ignore": ["node_modules", "dev", "public"],
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 3000,
+      "mongoURI": "mongodb+srv://default-user1:deff11@cluster0.xgiva.mongodb.net/test_training?retryWrites=true&w=majority"
+    },
+    "ext": ".js,.json",
+    "watch": "./"
+  }
